@@ -26,11 +26,11 @@ class YoutubeGroup {
       return null;
     }
     return YoutubeGroup(
-      title: Title.parse(element.findElements('title').single),
-      content: Content.parse(element.findElements('content').single),
-      thumbnail: Thumbnail.parse(element.findElements('thumbnail').single),
-      description: Description.parse(element.findElements('description').single),
-      community: Community.parse(element.findElements('community').single),
+      title: Title.parse(element.findElements('media:title').single),
+      content: Content.parse(element.findElements('media:content').single),
+      thumbnail: Thumbnail.parse(element.findElements('media:thumbnail').single),
+      description: Description.parse(element.findElements('media:description').single),
+      community: Community.parse(element.findElements('media:community').single),
     );
   }
 }
