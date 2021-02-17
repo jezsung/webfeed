@@ -1,8 +1,9 @@
-import 'package:webfeed/domain/media/star_rating.dart';
-import 'package:webfeed/domain/media/statistics.dart';
-import 'package:webfeed/domain/media/tags.dart';
-import 'package:webfeed/util/xml.dart';
 import 'package:xml/xml.dart';
+
+import '../../util/xml.dart';
+import 'star_rating.dart';
+import 'statistics.dart';
+import 'tags.dart';
 
 class Community {
   final StarRating starRating;

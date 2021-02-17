@@ -1,13 +1,14 @@
-import 'package:webfeed/domain/dublin_core/dublin_core.dart';
-import 'package:webfeed/domain/itunes/itunes.dart';
-import 'package:webfeed/domain/media/media.dart';
-import 'package:webfeed/domain/rss_category.dart';
-import 'package:webfeed/domain/rss_content.dart';
-import 'package:webfeed/domain/rss_enclosure.dart';
-import 'package:webfeed/domain/rss_source.dart';
-import 'package:webfeed/util/datetime.dart';
-import 'package:webfeed/util/xml.dart';
 import 'package:xml/xml.dart';
+
+import '../util/datetime.dart';
+import '../util/xml.dart';
+import 'dublin_core/dublin_core.dart';
+import 'itunes/itunes.dart';
+import 'media/media.dart';
+import 'rss_category.dart';
+import 'rss_content.dart';
+import 'rss_enclosure.dart';
+import 'rss_source.dart';
 
 class RssItem {
   final String title;

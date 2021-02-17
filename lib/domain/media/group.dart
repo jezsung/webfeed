@@ -1,9 +1,10 @@
-import 'package:webfeed/domain/media/category.dart';
-import 'package:webfeed/domain/media/content.dart';
-import 'package:webfeed/domain/media/credit.dart';
-import 'package:webfeed/domain/media/rating.dart';
-import 'package:webfeed/util/xml.dart';
 import 'package:xml/xml.dart';
+
+import '../../util/xml.dart';
+import 'category.dart';
+import 'content.dart';
+import 'credit.dart';
+import 'rating.dart';
 
 class Group {
   final List<Content> contents;

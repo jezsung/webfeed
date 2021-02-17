@@ -1,10 +1,11 @@
-import 'package:webfeed/domain/itunes/itunes_category.dart';
-import 'package:webfeed/domain/itunes/itunes_episode_type.dart';
-import 'package:webfeed/domain/itunes/itunes_image.dart';
-import 'package:webfeed/domain/itunes/itunes_owner.dart';
-import 'package:webfeed/domain/itunes/itunes_type.dart';
-import 'package:webfeed/util/xml.dart';
 import 'package:xml/xml.dart';
+
+import '../../util/xml.dart';
+import 'itunes_category.dart';
+import 'itunes_episode_type.dart';
+import 'itunes_image.dart';
+import 'itunes_owner.dart';
+import 'itunes_type.dart';
 
 class Itunes {
   final String author;

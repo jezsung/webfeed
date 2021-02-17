@@ -1,11 +1,12 @@
-import 'package:webfeed/domain/atom_category.dart';
-import 'package:webfeed/domain/atom_generator.dart';
-import 'package:webfeed/domain/atom_item.dart';
-import 'package:webfeed/domain/atom_link.dart';
-import 'package:webfeed/domain/atom_person.dart';
-import 'package:webfeed/util/datetime.dart';
-import 'package:webfeed/util/xml.dart';
 import 'package:xml/xml.dart';
+
+import '../util/datetime.dart';
+import '../util/xml.dart';
+import 'atom_category.dart';
+import 'atom_generator.dart';
+import 'atom_item.dart';
+import 'atom_link.dart';
+import 'atom_person.dart';
 
 class AtomFeed {
   final String id;

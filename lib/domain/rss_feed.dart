@@ -1,14 +1,15 @@
 import 'dart:core';
 
-import 'package:webfeed/domain/dublin_core/dublin_core.dart';
-import 'package:webfeed/domain/itunes/itunes.dart';
-import 'package:webfeed/domain/rss_category.dart';
-import 'package:webfeed/domain/rss_cloud.dart';
-import 'package:webfeed/domain/rss_image.dart';
-import 'package:webfeed/domain/rss_item.dart';
-import 'package:webfeed/domain/syndication/syndication.dart';
-import 'package:webfeed/util/xml.dart';
 import 'package:xml/xml.dart';
+
+import '../util/xml.dart';
+import 'dublin_core/dublin_core.dart';
+import 'itunes/itunes.dart';
+import 'rss_category.dart';
+import 'rss_cloud.dart';
+import 'rss_image.dart';
+import 'rss_item.dart';
+import 'syndication/syndication.dart';
 
 class RssFeed {
   final String title;
